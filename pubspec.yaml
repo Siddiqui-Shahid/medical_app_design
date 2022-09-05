@@ -1,0 +1,35 @@
+name: medical_app_design
+description: A new Flutter application.
+
+
+publish_to: 'none' # Remove this line if you wish to publish to pub.dev
+
+version: 1.0.0+1
+
+environment:
+  sdk: ">=2.7.0 <3.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  cupertino_icons: ^1.0.0
+  carousel_pro: ^0.0.1
+  otp_text_field: ^1.0.1
+  flutter_swiper: ^1.1.6
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+flutter:
+
+  uses-material-design: true
+
+  assets:
+    - image/
+    - image/Home/
+#  Navigator.push(
+#     context,
+#     MaterialPageRoute(builder: (context) => HomeScreen()),
+#  );
